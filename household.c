@@ -2,6 +2,8 @@
  * This file gives full implementation of a few functions and gives headers for the rest of the functions that you
  * are required to implement.
  * You may also find all of these functions as part of the TODO list
+ *
+ * @modified by Svetlana Komarova 
  */
 #include <string.h>
 #include <stdio.h>
@@ -9,6 +11,7 @@
 #include <time.h>
 #include <ctype.h>
 #include "household.h"
+
 // sorting function required for ranking of data
 void sortSelection(LocationCountPair arr[], int arrSize){
     int min = 0, temp = 0;
